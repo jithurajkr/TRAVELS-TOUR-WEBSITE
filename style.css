@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+ 
+/* Navbar section start */
+#navbar{
+    background-color: #f9f9f9;
+}
+#logo{
+    font-size: 36px;
+    font-weight: 550;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom:5px ;
+}
+#logo span{
+color: #ffa500;
+
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: .5s ease;
+
+}
+.nav-link:hover{
+    background-color: #ffa500;
+
+}
+#navbar form button{
+    background: #ffa500;
+    color: white;
+    border: none;
+}
+/* Navbar section end  */
+
+
+
+/* 1st section start  */
+.sec{
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2),url(images/background\ img.png)); */
+    background-image: url(images/background\ img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home, .con{
+    text-align: center;
+    padding-top: 200px;
+}
+.home, .con h5{
+    color: white;
+    font-size: 38px;
+    font-weight: 500;
+    text-shadow: 0px 1px 1px black;
+}
+
+.home, .con h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+    
+}
+.home, .con p{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+
+}
+.sp::after{
+    content: '';
+    color: #ffa500;
+    text-shadow: 0px 1px 1px black;
+    animation: changetxt 10s infinite linear;
+}
+
+@keyframes changetxt{
+    0%{
+        content: "India";
+    }
+    10%{
+        content: "Spain";
+    }
+    20%{
+        content: "France";
+    }
+    30%{
+        content: "China";
+    }
+    40%{
+        content: "Japan";
+    }
+    100%{
+        content: "India";
+    }
+
+}
+#cl:hover{
+    background-color: #f9f9f9;
+    border: none;
+}
+
+/* 1st section end  */
+
+
+/* 2nd section start  */
+.book{
+    background-color:#f9f9f9;
+    padding: 50px;
+}
+.h h1{
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+}
+.h h1 span{
+    color: #ffa500;
+}
+
+.book .card{
+    border-radius: 10px;
+    box-shadow:0px 5px 5px -6px black ;
+}
+.book .row{
+    margin-top: 30px;
+}
+
+.book form input{
+    padding: 10px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.book form textarea{
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    box-shadow: 0px 5px 5px -6px black;
+    height: 300px;
+}
+.book .submit:hover{
+    width: 170px;
+    
+}
+/* 2nd section end  */
+
+
+/* 3rd section  */
+
+.pk h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+
+}
+
+.pk h1 span{
+    color: #ffa500;
+}
+
+.package, .card{
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0,0,0,0,1) 0px 4px 12px;
+}
+
+.package, .card img{
+    border-radius: 5px;
+}
+
+.package, .card, .cb{
+    background:transparent;
+    margin-left: 20px;
+    
+}
+
+.package, .card, .cb h3{
+    font-size: 25px;
+    font-weight: 400;
+    /* margin-left: 10px; */
+    margin-top: 5px;
+}
+
+.package, .card, .cb p{
+    font-size:15px;
+    font-weight: 100;
+    /* margin-left: 10px; */
+}
+
+.checked{
+    color: #ffa500;
+}
+
+.star i{
+    font-size: 15px;
+}
+#m{
+    padding: 10px;
+    text-decoration: none;
+    background:#ffa500;
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+
+
+/* 3rd section end  */
+.service{
+    background: #f9f9f9;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.service, .card{
+    box-shadow:opx 4px 12px black ;
+    border: none;
+    cursor: pointer;
+
+}
+
+#ho{
+    font-size: 80px;
+    text-align: center;
+    color: #ffa500;
+    margin-top: 20px;
+}
+
+.service, .card .cardbody h3{
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+
+
+
+/* 5th section start  */
+.Gallery{
+    margin-top: 50px;
+    padding: 10px;
+
+}
+
+.Gallery, .card{
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    cursor: pointer;
+}
+
+.Gallery, .card img{
+    border-radius: 7px;
+    transition: 0.5s;
+    border: none;
+}
+
+.Gallery, .card img:hover{
+    transform: scale(1.1);
+}
+
+
+/* 5th section end  */
+
+/* last section start  */
+.about{
+    margin-top:  50px;
+    background: #f9f9f9;
+    padding: 50px;
+}
+
+.about, .card{
+    border-radius: 10px;
+}
+
+.about, .card img{
+    border-radius: 10px;
+}
+
+.about h2{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.about p{
+    font-weight: 500;
+}
+
+#about-btn{
+    width: 150px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background: #ffa500;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 500;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+#about-btn:hover{
+    width: 170px;
+}
+
+
+
+
+
+
+/* last section end  */
+
+/* Footer start */
+#footer{
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    background: #f9f9f9;
+}
+
+#footer h1{
+    font-weight: 600;
+    padding-top: 30px;
+    text-shadow:0px opx 1px black ;
+
+}
+
+#footer h1 span{
+    color: #ffa500;
+}
+
+.s i{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin-left:10px ;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+.s i:hover{
+    background: #ffa500;
+}
+
+
+
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+
